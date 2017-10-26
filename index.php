@@ -95,7 +95,7 @@
 	   	<?php if($edit_state == false): ?>
 			Add New User Address
 		<?php else: ?>
-           Update Existing User Address
+            Update Existing User Address
 		<?php endif ?>
 	   
 	   </div>
@@ -118,7 +118,7 @@
 				<div class="form-group">
 					<?php if($edit_state == false): ?>
 					<button class="btn btn-primary" type="submit" name="submit">Save</button>
-					<<?php else: ?>
+					<?php else: ?>
 					<button class="btn btn-primary" type="submit" name="update">update</button>
 				    <?php endif ?>
 				</div>
